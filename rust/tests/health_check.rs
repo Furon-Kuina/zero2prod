@@ -1,5 +1,5 @@
 use reqwest;
-use rust::configuration::{self, get_configuration};
+use rust::configuration::get_configuration;
 use sqlx::{Connection, PgConnection};
 use std::net::TcpListener;
 
