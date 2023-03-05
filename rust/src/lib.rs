@@ -20,7 +20,9 @@ pub fn run(listener: TcpListener) -> Result<Server, std::io::Error> {
 
 #[derive(serde::Deserialize)]
 struct FormData {
+    #[allow(dead_code)]
     email: String,
+    #[allow(dead_code)]
     name: String,
 }
 
