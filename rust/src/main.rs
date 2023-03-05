@@ -1,4 +1,4 @@
-use rust::run;
+use rust::startup::run;
 use std::net::TcpListener;
 
 #[tokio::main]
